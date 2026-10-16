@@ -1,0 +1,6 @@
+{
+  "normalized_original_python_files_matched": 188,
+  "differences": [],
+  "lab_exit_code": 0,
+  "lab_last_line": "PASS: real Agent loop, two scripted model responses, one paired tool result."
+}

@@ -1,0 +1,40 @@
+config.yaml
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
+# Keep only bundled skills; all local configuration and runtime data stay private.
+.staycode/*
+!.staycode/skills/
+.staycode/skills/**/__pycache__/
+.staycode/skills/**/*.pyc
+.staycode/skills/**/.env
+.staycode/skills/**/.env.*
+.staycode/skills/**/evals/
+.staycode/skills/**/iteration-*/
+.claude/
+CLAUDE.md
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Local validation transcripts and screenshots; retain source provenance manifests.
+docs/analysis/evidence/*
+!docs/analysis/evidence/source-manifest.json
+!docs/analysis/evidence/branding-file-map.json
+
+# Playwright snapshot leaks
+example-com-snapshot.md
+example-*.md
+
+# Playwright MCP 运行日志
+.playwright-mcp/

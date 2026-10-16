@@ -1,0 +1,26 @@
+
+MODEL CALL 1: history=2
+  StreamText: StreamText(text='I will call AddNumbers.')
+  ToolUseEvent: ToolUseEvent(tool_name='AddNumbers', tool_id='lab-call-1', arguments={'a': 19, 'b': 23})
+  UsageEvent: UsageEvent(input_tokens=20, output_tokens=10)
+  ToolResultEvent: ToolResultEvent(tool_id='lab-call-1', tool_name='AddNumbers', output='42', is_error=False, elapsed=2.1300045773386955e-05)
+  TurnComplete: TurnComplete(turn=1)
+
+MODEL CALL 2: history=4
+  StreamText: StreamText(text='The answer is 42.')
+  UsageEvent: UsageEvent(input_tokens=60, output_tokens=18)
+  LoopComplete: LoopComplete(total_turns=2)
+
+INTERNAL MESSAGES (environment text omitted):
+{"role": "user", "content": "What is 19 + 23? Use AddNumbers.", "tool_uses": [], "tool_results": []}
+{"role": "assistant", "content": "I will call AddNumbers.", "tool_uses": [{"tool_use_id": "lab-call-1", "tool_name": "AddNumbers", "arguments": {"a": 19, "b": 23}}], "tool_results": []}
+{"role": "user", "content": "", "tool_uses": [], "tool_results": [{"tool_use_id": "lab-call-1", "content": "42", "is_error": false, "content_blocks": null}]}
+{"role": "assistant", "content": "The answer is 42.", "tool_uses": [], "tool_results": []}
+
+ANTHROPIC SERIALIZATION:
+{"role": "user", "content": "Current time: 2026-09-24 22:39:17\nWhat is 19 + 23? Use AddNumbers."}
+{"role": "assistant", "content": [{"type": "text", "text": "I will call AddNumbers."}, {"type": "tool_use", "id": "lab-call-1", "name": "AddNumbers", "input": {"a": 19, "b": 23}}]}
+{"role": "user", "content": [{"type": "tool_result", "tool_use_id": "lab-call-1", "content": "42", "is_error": false}]}
+{"role": "assistant", "content": "The answer is 42."}
+
+PASS: real Agent loop, two scripted model responses, one paired tool result.

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="基于 StayCode 真实源码的 18 章 Agent 开发课程，含架构、调用链、离线实验与验收标准。"><title>验证记录 · StayCode</title><style>
+:root{color-scheme:light;--ink:#24342f;--muted:#64726b;--accent:#175b50;--paper:#faf9f5;--line:#dce2d9}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:32px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.85 'Segoe UI','Microsoft YaHei',sans-serif}
+a{color:var(--accent);text-underline-offset:4px}a:hover{color:#b05e27}button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #d78b37;outline-offset:3px}
+.rail{position:fixed;inset:0 auto 0 0;width:288px;background:#183f37;color:#e2eee4;padding:30px 23px;overflow:auto}.eyebrow{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase}.brand{font-size:27px;font-weight:750;margin:8px 0 3px;letter-spacing:-1px}.rail small{color:#b4cfc1}.rail a{color:#dceae0;text-decoration:none}.rail a:hover,.rail a.active{color:#fff;background:#2d584a}.nav-list{list-style:none;margin:20px 0;padding:0}.nav-list a{display:block;padding:7px 8px;border-radius:5px;line-height:1.5;font-size:13px}.nav-list .done::after{content:' ✓';color:#9ee0ac}.search{width:100%;margin-top:22px;padding:9px 11px;border:1px solid #537467;background:#234d41;color:white;border-radius:6px}.search::placeholder{color:#bed0c5}.progress-track{height:5px;background:#426355;border-radius:8px;margin:13px 0 5px}.progress-fill{height:100%;width:0;background:#a5dba7;border-radius:8px}.progress-text{font-size:12px;color:#c4d9cc}.rail-bottom{border-top:1px solid #426355;padding-top:18px;display:flex;gap:12px;flex-wrap:wrap;font-size:12px}.rail button{border:0;background:none;color:#c4d9cc;padding:0;font-size:12px}
+main{margin-left:288px;padding:56px 6vw 100px;max-width:1460px}.topline{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:36px;gap:20px}.topline span{font-size:12px;letter-spacing:1px;color:var(--muted)}.print{background:transparent;border:1px solid var(--line);border-radius:5px;padding:5px 12px;font-size:12px;color:var(--ink)}article{max-width:1020px}h1{font-size:clamp(31px,3.2vw,47px);letter-spacing:-1px;line-height:1.35;max-width:900px;margin:0 0 24px;font-weight:760}h2{font-size:28px;line-height:1.5;margin:0 0 26px;letter-spacing:-.4px}h3{font-size:21px;margin-top:33px;line-height:1.5}p{margin:16px 0}strong{font-weight:700}section{padding-top:54px;margin-top:52px;border-top:1px solid var(--line)}section .chapter-head{display:flex;align-items:flex-start;gap:20px;justify-content:space-between}.complete{white-space:nowrap;font-size:12px;display:flex;gap:6px;align-items:center;color:var(--muted);padding-top:8px}.complete input{accent-color:var(--accent);width:17px;height:17px}li{margin:7px 0}.table-wrap{overflow-x:auto;margin:25px 0}table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.7;background:#fff}th{text-align:left;background:#eaf0e7;font-size:13px;color:#234739}th,td{padding:13px 15px;border:1px solid var(--line);vertical-align:top}tbody tr:nth-child(even){background:#f8faf6}code{font:13px/1.7 Consolas,'Cascadia Code',monospace;overflow-wrap:anywhere;background:#eaf0e7;padding:2px 5px;border-radius:3px}pre{background:#203c34;color:#e3eee5;padding:23px 24px;overflow:auto;border-radius:8px;margin:25px 0;position:relative;line-height:1.7}pre code{background:none;padding:0;color:inherit;overflow-wrap:normal;font-size:13px}.copy{position:absolute;right:9px;top:7px;font-size:11px;background:#365448;color:#e3eee5;border:1px solid #61786b;border-radius:4px;padding:2px 8px}.diagram{background:#fff;border:1px solid var(--line);padding:20px;border-radius:9px;margin:25px 0}.diagram svg{display:block;width:100%;height:auto;min-width:450px}.diagram{overflow:auto}.note{padding:14px 18px;background:#eff2e7;border-left:3px solid #8ca565;font-size:14px}footer{margin-top:60px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}.mobile-toggle{display:none}.empty-search{display:none;font-size:12px;color:#d6e3d8}.source-note{font-size:12px;color:var(--muted)}
+@media(min-width:1500px){main{padding-left:95px;padding-right:80px}}@media(max-width:960px){.rail{width:240px;padding:25px 16px}main{margin-left:240px;padding:38px 28px}.chapter-head{flex-wrap:wrap;gap:0!important}}@media(max-width:700px){.rail{position:relative;width:auto;max-height:none;padding:18px 23px}.brand{font-size:23px}.rail small,.rail .progress-track,.rail .progress-text{display:none}.mobile-toggle{display:inline-block;position:absolute;right:22px;top:27px;padding:5px 10px!important;border:1px solid #789589!important;border-radius:4px}.nav-content{display:none}.rail.open .nav-content{display:block}.rail-bottom{margin-top:15px}main{margin:0;padding:30px 20px 70px}h1{font-size:30px}h2{font-size:24px}body{font-size:15px}th,td{padding:10px;min-width:125px}pre{padding:30px 15px 18px}section{margin-top:35px;padding-top:35px}.topline{margin-bottom:27px}.diagram{padding:8px}}
+@media print{.rail,.topline,.complete,.copy,footer{display:none!important}main{margin:0;padding:0;max-width:none}body{font-size:10pt;background:white;color:black}h1{font-size:24pt}h2{font-size:19pt}section{break-before:page;border:0;margin:0;padding:10px 0}h2,h3{break-after:avoid}pre,table,.diagram{break-inside:avoid}pre{white-space:pre-wrap;background:#f4f4f4;color:black;border:1px solid #ccc}a{color:black;text-decoration:none}.table-wrap{overflow:visible}table{font-size:9pt}.diagram svg{min-width:0}}
+</style></head>
+<body><aside class="rail"><div class="eyebrow">SOURCE CODE STUDY / 2026</div><div class="brand">StayCode 学习笔记</div><small>从 LLM 应用走进 Agent 内核</small><button class="mobile-toggle" aria-expanded="false" aria-controls="nav-content">章节目录</button><div class="nav-content" id="nav-content"><input class="search" type="search" aria-label="搜索章节内容" placeholder="搜索章节内容…"><div class="progress-track"><div class="progress-fill"></div></div><div class="progress-text"></div><nav aria-label="章节目录"><ul class="nav-list"><li><a href="#section-1">1. 结论与统计口径</a></li><li><a href="#section-2">2. 静态对比方法</a></li><li><a href="#section-3">3. 实际使用的环境</a></li><li><a href="#section-4">4. 离线测试范围与保护措施</a></li><li><a href="#section-5">5. 全量收集及警告</a></li><li><a href="#section-6">6. 配置只读原则与额外探针</a></li><li><a href="#section-7">7. 普通复跑命令</a></li><li><a href="#section-8">8. 精确验证边界</a></li><li><a href="#section-9">9. 教材配套实验与阅读版核验</a></li></ul><p class="empty-search">没有匹配章节，请换个关键词。</p></nav><div class="rail-bottom"><a href="Agent开发学习手册.html">学习手册</a><a href="源码导航.html">源码导航</a><a href="验证记录.html">验证记录</a><button class="reset">重置进度</button></div></div></aside>
+<main><div class="topline"><span>架构 · 源码 · 实验 · 验证</span><button class="print">打印 / 保存 PDF</button></div><article><section class="intro" style="border:0;margin:0;padding:0"><h1>学习教材的本地验证记录</h1>
+<p>验证日期：2026-09-24。对象为本地 <code>E:/AIAgentK开发/mewcode-python</code> 与 <code>E:/AIAgentK开发/StayCode</code> 快照。本文件记录本轮实际完成的检查，供学习手册引用；没有重新执行完整测试套件。</p>
+</section><section id="section-1"><div class="chapter-head"><h2>1. 结论与统计口径</h2></div>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>检查</th>
+<th>本轮结果</th>
+<th>能说明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原目录 Python 文件映射</td>
+<td>188 个均在 StayCode 中找到对应文件</td>
+<td>Python 文件复制链路完整</td>
+</tr>
+<tr>
+<td>品牌归一化后的 Python AST 比较</td>
+<td><strong>188/188 一致</strong>，无不一致、无缺失</td>
+<td>品牌替换后，所比较代码的语法结构一致</td>
+</tr>
+<tr>
+<td><code>pyproject.toml</code></td>
+<td>品牌归一化后，一致</td>
+<td>包名以外的项目声明与依赖约束沿用原版</td>
+</tr>
+<tr>
+<td><code>uv.lock</code></td>
+<td>品牌归一化后，一致</td>
+<td>锁文件沿用原版锁定结果</td>
+</tr>
+<tr>
+<td>产品 Python 文件</td>
+<td>两边各 <strong>141</strong> 个</td>
+<td>统计产品包，不包含测试和文档脚本</td>
+</tr>
+<tr>
+<td>测试相关 Python 文件</td>
+<td>两边各 <strong>37</strong> 个</td>
+<td>包括 35 个 <code>test_*.py</code>、<code>conftest.py</code> 与 <code>verify_subagent.py</code></td>
+</tr>
+<tr>
+<td><code>test_</code> 函数定义</td>
+<td>两边各 <strong>674</strong> 个</td>
+<td>AST 中名称以 <code>test_</code> 开头的同步/异步函数定义数量</td>
+</tr>
+<tr>
+<td>StayCode 全量仅收集</td>
+<td><strong>703 tests collected in 3.39s</strong>，退出码 0</td>
+<td>当前环境能够导入并收集这些测试项，未执行这些测试</td>
+</tr>
+<tr>
+<td>五个指定测试文件</td>
+<td><strong>32 passed in 2.58s</strong>，退出码 0</td>
+<td>本轮白名单中的 32 个测试项通过</td>
+</tr>
+<tr>
+<td>隔离目录中的模块 CLI 帮助</td>
+<td>成功，退出码 0</td>
+<td><code>python -m staycode --help</code> 可以启动并显示参数</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>674 个函数定义与 703 个收集项不是同一统计口径。</strong> 参数化会把一个测试函数展开成多个测试项。<strong>703 项收集成功不等于 703 项执行通过。</strong> 只有后文列出的 32 项在本轮实际执行。</p>
+<p>两个目录均没有发现 <code>.git</code>。上述对比支持“StayCode 完整复用这份本地实现并替换品牌”的结论，不能用于证明上游仓库的提交历史、功能正确性或跨平台兼容性。</p>
+</section><section id="section-2"><div class="chapter-head"><h2>2. 静态对比方法</h2></div>
+<ol>
+<li>枚举原目录中的 <code>.py</code> 文件，排除 <code>__pycache__</code>。</li>
+<li>对相对路径作 <code>mewcode</code> → <code>staycode</code> 映射，定位目标文件。</li>
+<li>以 UTF-8（允许 BOM）读取 Python 源文件，将文本中的 <code>mewcode</code>、<code>staycode</code> 不分大小写替换为统一占位词 <code>BRAND</code>。</li>
+<li>使用 <code>ast.parse()</code> 解析，再以 <code>ast.dump(..., include_attributes=False)</code> 比较。该比较忽略行列号和注释，保留语法结构以及归一化后的字符串常量、文档字符串。</li>
+<li><code>pyproject.toml</code> 使用 <code>tomllib</code> 解析、排序序列化后比较；<code>uv.lock</code> 对品牌归一化后的文本作比较。</li>
+</ol>
+<p>关键输出摘要如下，来自本轮工具运行输出的转录：</p>
+<pre><code class="language-text">source_file_count: 188
+equal_count: 188
+different: []
+missing: []
+pyproject_normalized_equal: true
+uv_lock_normalized_equal: true
+source: product_python_files=141, test_related_python_files=37,
+        test_named_python_files=35, test_definitions=674
+target: product_python_files=141, test_related_python_files=37,
+        test_named_python_files=35, test_definitions=674
+</code></pre>
+<p>这不是形式化的行为等价证明，也不是所有非 Python 资源的逐字节校验。它没有把当前生产配置与配置示例纳入内容对比。</p>
+</section><section id="section-3"><div class="chapter-head"><h2>3. 实际使用的环境</h2></div>
+<p>执行解释器是项目现有的 <code>E:/AIAgentK开发/StayCode/.venv/Scripts/python.exe</code>，没有安装或升级依赖，没有改全局环境。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>实际版本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>操作系统</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>3.13.9，Anaconda 构建</td>
+</tr>
+<tr>
+<td>项目声明版本</td>
+<td>0.2.0</td>
+</tr>
+<tr>
+<td>pytest</td>
+<td>9.0.3</td>
+</tr>
+<tr>
+<td>pytest-asyncio</td>
+<td>1.3.0</td>
+</tr>
+<tr>
+<td>Textual</td>
+<td>8.2.5</td>
+</tr>
+<tr>
+<td>anthropic</td>
+<td>0.98.1</td>
+</tr>
+<tr>
+<td>openai</td>
+<td>2.34.0</td>
+</tr>
+<tr>
+<td>pydantic</td>
+<td>2.13.3</td>
+</tr>
+<tr>
+<td>mcp</td>
+<td>2.2.0</td>
+</tr>
+<tr>
+<td>httpx</td>
+<td>0.28.1</td>
+</tr>
+<tr>
+<td>httpx2</td>
+<td>2.13.0</td>
+</tr>
+<tr>
+<td>websockets</td>
+<td>16.0</td>
+</tr>
+</tbody>
+</table></div>
+<p>旧研究文档中“缺少 <code>httpx2</code>、<code>mcp</code>，480 项收集、13 个错误”的记录来自当时另一套环境，不能替代本轮项目 <code>.venv</code> 的结果。历史品牌验证记录中的 92 项通过也是另一轮检查，不能与本轮 32 项简单相加，当成不重复的覆盖数量。</p>
+</section><section id="section-4"><div class="chapter-head"><h2>4. 离线测试范围与保护措施</h2></div>
+<p>执行前检查了五个测试文件、根 <code>conftest.py</code>，以及作为测试替身来源的 <code>test_agent.py</code> 中相关定义。随后只运行以下文件：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>文件</th>
+<th style="text-align:right">执行项数</th>
+<th>验证内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>tests/test_serialization.py</code></td>
+<td style="text-align:right">9</td>
+<td>三类模型协议的消息序列化、工具调用、thinking 往返字段</td>
+</tr>
+<tr>
+<td><code>tests/test_conversation_pairing.py</code></td>
+<td style="text-align:right">5</td>
+<td>工具调用与结果配对、缺失补齐、孤立结果处理</td>
+</tr>
+<tr>
+<td><code>tests/test_streaming_batching.py</code></td>
+<td style="text-align:right">11</td>
+<td>相邻只读工具并发、写入串行、结果顺序、失败调用 ID、命令分类</td>
+</tr>
+<tr>
+<td><code>tests/test_toolresult_wiring.py</code></td>
+<td style="text-align:right">3</td>
+<td>假模型和假工具驱动主循环，验证单条/聚合溢写与回读豁免</td>
+</tr>
+<tr>
+<td><code>tests/test_session_no_duplicate.py</code></td>
+<td style="text-align:right">4</td>
+<td>消息持久化标记和历史头部插入时的去重逻辑</td>
+</tr>
+<tr>
+<td>合计</td>
+<td style="text-align:right"><strong>32</strong></td>
+<td><strong>全部通过</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><code>test_toolresult_wiring.py</code> 导入 <code>test_agent.py</code> 中的 <code>MockLLMClient</code>，但没有执行 <code>test_agent.py</code> 的测试。<code>test_streaming_batching.py</code> 中出现的 Bash 命令字符串用于分类判断或假执行器，不调用真实 <code>Bash.execute()</code>。</p>
+<p>本轮执行采用以下保护：</p>
+<ul>
+<li>新建系统临时目录，切换进程 cwd 到该目录；将该子进程的 <code>HOME</code>、<code>USERPROFILE</code> 指向临时 home。</li>
+<li>保留产品和测试文件在原路径，只为导入向 <code>sys.path</code> 加入项目路径。</li>
+<li>Python 使用 <code>-X utf8 -B</code>；pytest 使用 <code>-p no:cacheprovider</code>，避免在项目写入字节码和 pytest 缓存。</li>
+<li>禁止自动加载无关 pytest 插件，仅显式加载 <code>pytest_asyncio.plugin</code>。</li>
+<li>五文件执行进程移除 <code>OPENAI_API_KEY</code>、<code>ANTHROPIC_API_KEY</code>；收集进程还移除 <code>STAYCODE_TEST_API_KEY</code>。这些修改只存在于短命验证进程中，不修改用户永久环境变量。</li>
+<li>通过 <code>sys.addaudithook()</code> 阻止全部 <code>subprocess.Popen</code>。执行阶段阻止外部 <code>socket.connect</code>，只保留 <code>127.0.0.1</code>、<code>::1</code> 回环连接，以兼容 Windows 事件循环内部使用。收集阶段禁止全部子进程和 socket 连接。</li>
+<li><code>test_toolresult_wiring.py</code> 自身使用 <code>tmp_path</code> 并切换到它；根 fixture 还把 <code>Path.home()</code> 指向测试临时 home。额外的进程隔离避免依赖 fixture 注释所声称的隔离范围。</li>
+</ul>
+<p>实际结果摘要：</p>
+<pre><code class="language-text">................................                                         [100%]
+32 passed in 2.58s
+blocked_external_operations=[
+  'subprocess.Popen', 'subprocess.Popen', 'subprocess.Popen',
+  'subprocess.Popen', 'subprocess.Popen', 'subprocess.Popen'
+]
+exit_code=0
+</code></pre>
+<p>没有观察到外部网络连接尝试。6 次子进程请求在创建前被阻止，未记录它们的具体命令参数。源码 <code>staycode/prompts.py</code> 的环境探测包含 <code>git rev-parse</code>，会捕获失败并退化为非 Git 环境；因此本次结果不能用于声称 Git 环境探测成功。通过这些测试也不意味着真实 shell 工具已执行或验证。</p>
+</section><section id="section-5"><div class="chapter-head"><h2>5. 全量收集及警告</h2></div>
+<p>全量检查使用 <code>--collect-only</code>，在独立临时 cwd 和 home 中导入测试、展开参数化并计算测试项，没有执行测试体。为避免输出数百个节点名，运行器暂存 pytest 输出，再打印统计和尾部警告。</p>
+<pre><code class="language-text">collection_exit_code=0
+collected=703
+blocked_operations=[]
+703 tests collected in 3.39s
+</code></pre>
+<p>唯一警告位于 <code>tests/test_consolidation.py:244</code>：</p>
+<pre><code class="language-text">PytestUnknownMarkWarning: Unknown pytest.mark.timeout
+    @pytest.mark.timeout(120)
+</code></pre>
+<p>项目声明的开发依赖没有 <code>pytest-timeout</code>，本轮也没有加载它，因此不能认为该标记提供了超时保护。警告没有导致本次收集失败。该文件还存在受 <code>STAYCODE_TEST_API_KEY</code> 控制的真实 API 测试；本轮没有执行。</p>
+</section><section id="section-6"><div class="chapter-head"><h2>6. 配置只读原则与额外探针</h2></div>
+<p>本轮未读取或输出实际 <code>config.yaml</code>、<code>config.local.yaml</code>、<code>config.yaml.example</code> 中的配置值或密钥，也没有执行默认 <code>load_config()</code>。研究依据为 <code>staycode/config.py</code>、<code>staycode/validator.py</code> 的实现。</p>
+<p>额外配置探针只在内存中构造虚构 <code>ProviderConfig</code>、<code>AppConfig</code>，使用 <code>https://example.invalid/v1</code> 与演示模型名，没有建立客户端或发送网络请求。探针复核了以下现有行为：</p>
+<ul>
+<li>后层 providers 整表替换；<code>permission_mode: default</code> 不能覆盖前层非 default。</li>
+<li>后层缺省 <code>enable_fork: true</code> 会重新打开前层的 false。</li>
+<li>verification、coordinator 与 sandbox 布尔字段不能通过后层 false 关闭前层 true。</li>
+<li>空 teammate_mode 不能清除前层值；后层 worktree 设置没有被合并。</li>
+<li>缺少 providers 的单层配置会被校验器拒绝。</li>
+</ul>
+<p>这些是实现事实，不是本轮修复内容。合并规则详见 <code>staycode/config.py</code> 的 <code>_merge_config()</code>，每层校验见 <code>staycode/validator.py</code> 的 <code>validate_config_structure()</code>。</p>
+</section><section id="section-7"><div class="chapter-head"><h2>7. 普通复跑命令</h2></div>
+<p>下列是便于手工使用的常规命令。<strong>它们没有自动加入前述临时 home 与审计钩子，不等同于本轮带保护的运行器。</strong> 当前指定五文件经过审阅，模型和工具执行使用替身；不要未经检查就把白名单替换成整个 tests 目录执行。</p>
+<pre><code class="language-powershell">Set-Location -LiteralPath 'E:\AIAgentK开发\StayCode'
+
+.\.venv\Scripts\python.exe -X utf8 -B -m pytest `
+  -q -p no:cacheprovider `
+  tests/test_serialization.py `
+  tests/test_conversation_pairing.py `
+  tests/test_streaming_batching.py `
+  tests/test_toolresult_wiring.py `
+  tests/test_session_no_duplicate.py
+
+# 只收集测试节点，不执行测试体
+.\.venv\Scripts\python.exe -X utf8 -B -m pytest `
+  --collect-only -q -p no:cacheprovider
+</code></pre>
+<p>本轮 CLI 帮助检查的 PowerShell 命令如下。它特意在临时目录中运行，因为程序在参数解析前就建立 <code>.staycode</code> 日志目录：</p>
+<pre><code class="language-powershell">$taskHelpDir = Join-Path ([System.IO.Path]::GetTempPath()) `
+  ('staycode-learning-help-' + [guid]::NewGuid().ToString('N'))
+New-Item -ItemType Directory -Path $taskHelpDir | Out-Null
+Push-Location -LiteralPath $taskHelpDir
+try {
+    &amp; 'E:/AIAgentK开发/StayCode/.venv/Scripts/python.exe' `
+      -X utf8 -B -m staycode --help
+} finally {
+    Pop-Location
+}
+</code></pre>
+<p>模块命令显示了 <code>--mode</code>、<code>-p</code>、<code>--output-format</code>、<code>--remote</code>，退出码 0。本轮没有运行实际 TUI 或真实提示任务。</p>
+</section><section id="section-8"><div class="chapter-head"><h2>8. 精确验证边界</h2></div>
+<p>本验证子任务仅新增这份学习验证记录；此前的检查没有修改两个项目的应用源码、测试代码或实际配置，没有安装依赖。测试生成的数据写入系统临时目录，没有把生成数据当作用户配置保存。</p>
+<p>本轮<strong>没有验证</strong>：完整 703 项的执行结果、真实模型生成、真实 Bash 命令执行、外部 MCP 服务、网络 hooks、完整 TUI 生命周期、Remote 服务、真实多进程队友、tmux/iTerm2、worktree 创建与清理、Linux/macOS 沙箱行为。</p>
+<p><code>-p</code> 入口会在收到权限请求时自动批准，Remote 默认监听 <code>0.0.0.0:18888</code>；二者均不能替代此处的离线测试方法。源码中的危险命令测试、真实 API 测试和带清理操作的集成测试未纳入执行白名单。</p>
+<p>本文件中的运行输出是本轮工具返回结果的摘要转录，没有宣称保存了完整原始日志。教材引用结论时，应保留“本轮”“指定 32 项”“仅收集”等限定词。</p>
+</section><section id="section-9"><div class="chapter-head"><h2>9. 教材配套实验与阅读版核验</h2></div>
+<p>教材主任务另运行了 <code>docs/learning/labs/trace_agent_loop.py</code>：真实 <code>Agent.run()</code> 使用 ScriptedClient 和纯函数 AddNumbers，完成两次模型响应、一次工具调用，工具 ID 与结果配对、最终消息和循环结束断言通过，退出码 0。此处没有真实 LLM 请求，也没有将实验工具加入产品默认注册表。首次运行发现实验序列化调用传入了 ConversationManager 而非消息列表，修正为 <code>get_messages()</code> 后复跑通过。</p>
+<p><code>build_reader.py</code> 从同一 Markdown 生成 HTML、源码导航与符号索引，并检查 18 章数量、目录锚点、本地链接、行号范围和代码围栏。额外检查 HTML 实际链接，修复了中文路径经过 Markdown 渲染后再次编码的问题；最终检查结果见 <code>evidence/document-check.json</code> 与 <code>evidence/html-links.json</code>。</p>
+<p>阅读版使用本地内联 CSS、JavaScript 和 SVG，没有外部脚本或字体依赖。Playwright 的 file 协议访问被工具限制，因此通过仅绑定 <code>127.0.0.1</code> 的临时静态服务器核验 HTML；这不是启动 StayCode Remote，也没有启动模型服务。检查范围包括 1440×1000 桌面和 390×844 手机宽度、18 个进度复选框、20 个导航项、无重复 ID、无缺失锚点、关键词筛选、章节跳转、进度写入与清除，以及无整页横向溢出。截图保存在 <code>evidence/reader-*.png</code>。</p>
+<p>浏览器检查不代表所有浏览器的 file-origin 存储、剪贴板和打印行为均已验证。源码链接保留本机路径；若移动项目，重新运行构建脚本并调整教材中的根路径。以上检查未扩展到产品 TUI、Remote、真实模型或完整测试套件。</p>
+</section></article><footer>源码快照日期 2026-09-24 · 离线阅读，无外部脚本依赖。进度保存在当前浏览器；不支持本地存储时仍可正常阅读。源码链接的行号请在编辑器中定位。</footer></main><script>
+const storageKey='staycode-learning-20260924';
+let completed=new Set();
+try{completed=new Set(JSON.parse(localStorage.getItem(storageKey)||'[]'));}catch(e){}
+const boxes=[...document.querySelectorAll('[data-chapter]')];
+function refresh(){
+  boxes.forEach(b=>{b.checked=completed.has(b.dataset.chapter);const n=document.querySelector('.nav-list a[href="#'+b.dataset.chapter+'"]');if(n)n.classList.toggle('done',b.checked);});
+  const count=boxes.filter(b=>b.checked).length;
+  document.querySelector('.progress-text').textContent=count+' / '+boxes.length+' 章已完成 · 进度保存在当前浏览器';
+  document.querySelector('.progress-fill').style.width=(boxes.length?count/boxes.length*100:0)+'%';
+}
+boxes.forEach(b=>b.addEventListener('change',()=>{if(b.checked)completed.add(b.dataset.chapter);else completed.delete(b.dataset.chapter);try{localStorage.setItem(storageKey,JSON.stringify([...completed]));}catch(e){}refresh();}));
+refresh();
+document.querySelector('.reset').addEventListener('click',()=>{completed.clear();try{localStorage.removeItem(storageKey);}catch(e){}refresh();});
+document.querySelector('.print').addEventListener('click',()=>window.print());
+document.querySelector('.mobile-toggle').addEventListener('click',e=>{const open=document.querySelector('.rail').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',String(open));});
+document.querySelector('.search').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();let visible=0;document.querySelectorAll('.nav-list li').forEach(li=>{const id=li.querySelector('a').getAttribute('href').slice(1);const s=document.getElementById(id);const ok=!q||(s?s.textContent:li.textContent).toLowerCase().includes(q);li.hidden=!ok;if(ok)visible++;});document.querySelector('.empty-search').style.display=visible?'none':'block';});
+document.querySelectorAll('pre').forEach(pre=>{const button=document.createElement('button');button.className='copy';button.type='button';button.textContent='复制';button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(pre.querySelector('code').textContent);button.textContent='已复制';setTimeout(()=>button.textContent='复制',1400);}catch(e){button.textContent='请选中复制';}});pre.appendChild(button);});
+const sections=[...document.querySelectorAll('section[id]')];
+const observer=new IntersectionObserver(entries=>{const first=entries.find(e=>e.isIntersecting);if(first){document.querySelectorAll('.nav-list a').forEach(a=>a.classList.toggle('active',a.hash==='#'+first.target.id));}},{rootMargin:'0px 0px -65% 0px',threshold:0});
+sections.forEach(s=>observer.observe(s));
+</script></body></html>

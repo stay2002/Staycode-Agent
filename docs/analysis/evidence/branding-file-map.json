@@ -1,0 +1,1458 @@
+[
+  {
+    "source": ".gitignore",
+    "target": ".gitignore",
+    "source_sha256": "db2dc3aae358fe4e34376a493e2683bc80c8e23b430da0e90f65fee719cb0cb2",
+    "target_sha256": "78a358c695408dc368c439f59c8bdf2e4ecd42f8fd389911d01e31012f447431",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/config.yaml.example",
+    "target": ".staycode/config.yaml.example",
+    "source_sha256": "67aa551c29f9c86bf3d203fb5d0d69f15f0e3315ca792072f7399e862bd91785",
+    "target_sha256": "67aa551c29f9c86bf3d203fb5d0d69f15f0e3315ca792072f7399e862bd91785",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/frontend-design/LICENSE.txt",
+    "target": ".staycode/skills/frontend-design/LICENSE.txt",
+    "source_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "target_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "license_unchanged": true
+  },
+  {
+    "source": ".mewcode/skills/frontend-design/SKILL.md",
+    "target": ".staycode/skills/frontend-design/SKILL.md",
+    "source_sha256": "8fa9a108b3b95d488caff3a5ee2c6a74c6ad297e8b10421e1b3bf0d53307de89",
+    "target_sha256": "8fa9a108b3b95d488caff3a5ee2c6a74c6ad297e8b10421e1b3bf0d53307de89",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/LICENSE.txt",
+    "target": ".staycode/skills/skill-creator/LICENSE.txt",
+    "source_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "target_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "license_unchanged": true
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/SKILL.md",
+    "target": ".staycode/skills/skill-creator/SKILL.md",
+    "source_sha256": "a8bc7baca2883a8e428f25ceb0188ffb1eef91a09c1427f7f60494316bbebf1c",
+    "target_sha256": "54853cf6cd76d038e8ff62eef7349bde0d6be73f1570a3039df6fd9792f0548f",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/agents/analyzer.md",
+    "target": ".staycode/skills/skill-creator/agents/analyzer.md",
+    "source_sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+    "target_sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/agents/comparator.md",
+    "target": ".staycode/skills/skill-creator/agents/comparator.md",
+    "source_sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+    "target_sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/agents/grader.md",
+    "target": ".staycode/skills/skill-creator/agents/grader.md",
+    "source_sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+    "target_sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/assets/eval_review.html",
+    "target": ".staycode/skills/skill-creator/assets/eval_review.html",
+    "source_sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+    "target_sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/eval-viewer/generate_review.py",
+    "target": ".staycode/skills/skill-creator/eval-viewer/generate_review.py",
+    "source_sha256": "1478f4dbf9acce9d18444a42b0aa1c5d1fa8e1df361df289a57b42ad89cdf774",
+    "target_sha256": "820305c81d5a799cb68195847ff3443afe0d3cd0b094355ea619d94e9a137e53",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/eval-viewer/viewer.html",
+    "target": ".staycode/skills/skill-creator/eval-viewer/viewer.html",
+    "source_sha256": "8d2747c20ba13585ae897f049c7474f8c168dc23af7b45cd7929af531db7226e",
+    "target_sha256": "58b4bd4cdf5034511a8fe84b098a129d8fd874f12bf544b1e342846c7fabb345",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/references/schemas.md",
+    "target": ".staycode/skills/skill-creator/references/schemas.md",
+    "source_sha256": "5c42432511dcc2d3413c5425de4044d5bf3f8e328f80b5e1afe816676e205c54",
+    "target_sha256": "5c42432511dcc2d3413c5425de4044d5bf3f8e328f80b5e1afe816676e205c54",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/__init__.py",
+    "target": ".staycode/skills/skill-creator/scripts/__init__.py",
+    "source_sha256": "3c0a5e518206eb1525db45174eae2af0d81082d457791b8e992d28a1e0b72dca",
+    "target_sha256": "e6c767aaabb678ed4d3fb4f5c9193c55abf9739f641095705e94f198f08010f9",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/aggregate_benchmark.py",
+    "target": ".staycode/skills/skill-creator/scripts/aggregate_benchmark.py",
+    "source_sha256": "a807e31408faf59e002226df84332ca801c795fdbe6a1e7cb8ed28b29aff5dcc",
+    "target_sha256": "a760da338fa3ff8853cd799895324bc8e15efac4a85571e65d4ac89e4b4e55c4",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/generate_report.py",
+    "target": ".staycode/skills/skill-creator/scripts/generate_report.py",
+    "source_sha256": "2196b6e20c5fc7a4a579899e92abd2a7421b491ad732c50091741894e1f02d43",
+    "target_sha256": "f8a0a32c7da8140685914d5e13582cb9d8b4468c44950771c6182c5dc68161be",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/improve_description.py",
+    "target": ".staycode/skills/skill-creator/scripts/improve_description.py",
+    "source_sha256": "b5e552d182604d5f9741240713c70a794d73e3aa746f113e81409036492a5c0e",
+    "target_sha256": "dbecb13d5adec9c7bf6ef8bd561b38f825ef2b0ef66ba7326a7f031fd38f182c",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/package_skill.py",
+    "target": ".staycode/skills/skill-creator/scripts/package_skill.py",
+    "source_sha256": "b9e62bd2b1a9bc4fe994aa14f5cda0a651ee18eeb5b85dc02103a436143b5c17",
+    "target_sha256": "128ded5adaaedf1f584ae0a9f71f0e1991e571522019d551dc4b6fb043111c02",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/quick_validate.py",
+    "target": ".staycode/skills/skill-creator/scripts/quick_validate.py",
+    "source_sha256": "547ad34bcaf629db5fb63ff9d575f625075fb762f70787b63937440f0be7dfc1",
+    "target_sha256": "893bedd2eefc2db88301183e4bd86106dfbf5271bc0ff98632dcbe330ad1db62",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/run_eval.py",
+    "target": ".staycode/skills/skill-creator/scripts/run_eval.py",
+    "source_sha256": "8eed12dfd40217d1aba5e587f92c63d9a92d429e7f2f38ea5c0f2ee656280258",
+    "target_sha256": "c0260569f663fd6b65f73966545cc9213b6f77b8d44f7ba062913a497351c827",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/run_loop.py",
+    "target": ".staycode/skills/skill-creator/scripts/run_loop.py",
+    "source_sha256": "6d6f6178455da0aa2ce1381fd33b863ef2cfda79583ba947e709119992d3436c",
+    "target_sha256": "f163cb4d60bbd3a600a14a06cbb9a9dbeebf26a3fc8851456376016d9c97e38d",
+    "license_unchanged": false
+  },
+  {
+    "source": ".mewcode/skills/skill-creator/scripts/utils.py",
+    "target": ".staycode/skills/skill-creator/scripts/utils.py",
+    "source_sha256": "61923c62393dc91d060065aae4487287f93cbb287c1652862d645f5d4c540dd0",
+    "target_sha256": "8b0283dff6bfc5a28255d71b1ca94ae1a966640829bf09550c7eefd07c3bd528",
+    "license_unchanged": false
+  },
+  {
+    "source": "MEWCODE.md",
+    "target": "STAYCODE.md",
+    "source_sha256": "1a39780bca258d3147bee86063ba2c984073c4299cf44c87467b7677c609d73f",
+    "target_sha256": "8b6c47a3dc20885ad28a243d976d10e7f8ed42fbff8b572a73e36644d3ac7189",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/__init__.py",
+    "target": "staycode/__init__.py",
+    "source_sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6",
+    "target_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/__main__.py",
+    "target": "staycode/__main__.py",
+    "source_sha256": "47ac2474515c638fd1406f3a9a5ed1bded9fc6d8505d117f3742ff1f6bbc273c",
+    "target_sha256": "b2d460b5f5829c96418412f5ae01adc8d66de010b22d1abe8b4c15da5f27eef6",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agent.py",
+    "target": "staycode/agent.py",
+    "source_sha256": "16db776eaffb0a0599c07438d5f7074580899c5a4e26a14802052541516c9a92",
+    "target_sha256": "6fffcace8311b5ef556c15c4837a419ffe0c73ad7d8396cbfbca4b7a9a1dbfa8",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/__init__.py",
+    "target": "staycode/agents/__init__.py",
+    "source_sha256": "3e6260fe06a9cc1593522431bcf58b6020b5a6c7de910beabbbecbadb2d8e968",
+    "target_sha256": "1b219c15b6f1a4717221dc466e4139c24ff22689246923df6a92d1f9718a669b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/builtins/__init__.py",
+    "target": "staycode/agents/builtins/__init__.py",
+    "source_sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6",
+    "target_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/builtins/explore.md",
+    "target": "staycode/agents/builtins/explore.md",
+    "source_sha256": "4c064ba4a3fb0ffef45516ce25886776cd55076a3c4e39ecc04c97c85e53d61a",
+    "target_sha256": "4c064ba4a3fb0ffef45516ce25886776cd55076a3c4e39ecc04c97c85e53d61a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/builtins/general-purpose.md",
+    "target": "staycode/agents/builtins/general-purpose.md",
+    "source_sha256": "a2e77e9eb91ab3c792c15b4f5c8d355bf7641e9fe33f1f9bbaf87d544df3bd56",
+    "target_sha256": "b4846290924c6ab35443f26e9f095bec40e2afcb7961c8f05eef6b4e49d681ab",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/builtins/plan.md",
+    "target": "staycode/agents/builtins/plan.md",
+    "source_sha256": "f6f7f8e5f5353479bff9325d7b48d1b88236d8941a9db2d037fb1565c692ef02",
+    "target_sha256": "f6f7f8e5f5353479bff9325d7b48d1b88236d8941a9db2d037fb1565c692ef02",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/builtins/verification.md",
+    "target": "staycode/agents/builtins/verification.md",
+    "source_sha256": "b55b15d09ad8f0dd569fa80fdec1de093013f4e09ab0133d7af0fa3fcb0f53bf",
+    "target_sha256": "b55b15d09ad8f0dd569fa80fdec1de093013f4e09ab0133d7af0fa3fcb0f53bf",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/fork.py",
+    "target": "staycode/agents/fork.py",
+    "source_sha256": "94caaa807c116b02d336384efa59c2721594bdd46f665a827ba68e4c410d48e2",
+    "target_sha256": "4f98e5795aff59d1bf029fe785e80df32054bc586cebdf6bff2b0740500c5c8e",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/loader.py",
+    "target": "staycode/agents/loader.py",
+    "source_sha256": "36f33bc18a5226c46481fb814f6490e9815f136d3fd3bdd7f5c39e2f5ba0f4c0",
+    "target_sha256": "85c58c9a8ae26ca67b6dd2f9c1568a91d75f5d04e91ba13f734f28f082efae3e",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/notification.py",
+    "target": "staycode/agents/notification.py",
+    "source_sha256": "228694016bc8d2a81f202dc0f9db7b67c0b7dbd80d5a3d7ce8b404354ca890da",
+    "target_sha256": "e093b56881aa77659d10b72d59b70bac9f835ab5c63a9baa7059f831cb5e5ff2",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/parser.py",
+    "target": "staycode/agents/parser.py",
+    "source_sha256": "8163343ce3dfdd72c90f0a1464fe2aab1c30017e03d473c98297aecde726a179",
+    "target_sha256": "f4f5749821bff564f6425581b850609ac956237ca5cdbe2da99409017f8874a1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/task_manager.py",
+    "target": "staycode/agents/task_manager.py",
+    "source_sha256": "0e6610d4bcd10a19883b756b7f02928df01a6aab542c6ceaea7dfdd9590c4a6c",
+    "target_sha256": "7b7496b12da438d907059b65a4b64b4d79e2209d01cfd06f6cef04866054a6db",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/tool_filter.py",
+    "target": "staycode/agents/tool_filter.py",
+    "source_sha256": "8f0625cade1b67216ee1f0dc1ef26fbd4af1b572ef8f08bf1bd3807877481dca",
+    "target_sha256": "adc0f8d90994228d97052d8334549fdd9916e92d4b12d25f814b4b6de2b35f1a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/agents/trace.py",
+    "target": "staycode/agents/trace.py",
+    "source_sha256": "01197d87cb4d78072f71374630dfb92eddc64abbe115a1ffb89a8f820b786d20",
+    "target_sha256": "37910ea12bc36935a61a95199d46b0192d94b8eb90b377790e7cd5208f160db8",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/app.py",
+    "target": "staycode/app.py",
+    "source_sha256": "a88357bc4f6dadd59d1da95e6962dd1a5822cdbdb6d4e8b73792e36f813de5d7",
+    "target_sha256": "d5dbacd3de5ee65356519d3122645e95130d6ae27e90a6a9cc2a03b57ee7927b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/askuser_dialog.py",
+    "target": "staycode/askuser_dialog.py",
+    "source_sha256": "afe6b2ba5467826aa5cc716b952690b3d849363317e5bcedecf7dbc8a4f9a3d3",
+    "target_sha256": "bdaf2ac3409bc255ace25ef9ee8077bedaa2d8178ec62569be195c1e0f84b4d0",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/client.py",
+    "target": "staycode/client.py",
+    "source_sha256": "1e77752bd3bd03147b56aca6b48de1049445f51c4792e7013c3c89182ded8731",
+    "target_sha256": "395d0778def05bc56b25f67011637202df7199c165b4e6766ddb6778114c7aae",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/__init__.py",
+    "target": "staycode/commands/__init__.py",
+    "source_sha256": "c6ec6952e2d1f990437ff5e9e64c52f3944a134e559e513569bbaf824f973aec",
+    "target_sha256": "3e9b35310d113f89548bb39ecacbe9b0f12e56de0824096b1b3574a03d0a2758",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/completion.py",
+    "target": "staycode/commands/completion.py",
+    "source_sha256": "1c5c4c40a5a10c33624d6f09186965a6d16e859bdaadeb2514a94256cb175fc7",
+    "target_sha256": "fe1be4e4491c000073ed6872467f447c15b2e5c263245a659c9d842ec64ecdf8",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/__init__.py",
+    "target": "staycode/commands/handlers/__init__.py",
+    "source_sha256": "8aaa3694281a4bb7b2821605e37ddb378d86070b94eb9db9385539abf743e279",
+    "target_sha256": "84f454332ce038b748d4d31114019d855153964e987c760076de360c9a60980a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/clear.py",
+    "target": "staycode/commands/handlers/clear.py",
+    "source_sha256": "055ca0c6c2f8c7ec8b896297e13a39434694ac2b5ee4e879459bdccc036dd7a8",
+    "target_sha256": "73587bd39f5fd0b90770e5e6c0510536f4d93c7a31d407a14c45c4db8d71a605",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/compact.py",
+    "target": "staycode/commands/handlers/compact.py",
+    "source_sha256": "b395f4e2bd2fb77dbb8d64afcec3a85bd12ec0486f9b8476f4b369b1fc7286c8",
+    "target_sha256": "e80a876884b6df5911e704c14005fba42eb9c60799f6e93cd2468f0a315d0fd1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/help.py",
+    "target": "staycode/commands/handlers/help.py",
+    "source_sha256": "636ee0585df09c7fa24f76ed419b39ffefa3dcd37d7ca6b7b3f80c241d78481c",
+    "target_sha256": "5638ed2639d3d2a6399c4788db35aa59a6f717e6c67c04756397db5e7bc4e815",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/mcp.py",
+    "target": "staycode/commands/handlers/mcp.py",
+    "source_sha256": "26b3a6d3ada63cd62872520a1f391f5f10d715ff35128f9302ff203921142296",
+    "target_sha256": "4c9926a71677f44aea6805715f97bbe9b7ce9f44b396628659d172927046973c",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/memory.py",
+    "target": "staycode/commands/handlers/memory.py",
+    "source_sha256": "3d85363ef3bde5afea02d6f6bb7472176d64673b039e809fa4db4cff37c4bf06",
+    "target_sha256": "2d7ad7311611c3bfdc6b5ce62ffd6508bb01160ce3fd3bcef9f9b0158179e8f7",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/plan.py",
+    "target": "staycode/commands/handlers/plan.py",
+    "source_sha256": "86bfcda106e29d9edd0895086937bb1d9e3167094321f7ddfd029207c4ff84c3",
+    "target_sha256": "91750e92117195fa7ed7e72a1b1fff62d3835c2fd8a814fbe915056ebc7c6e45",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/review.py",
+    "target": "staycode/commands/handlers/review.py",
+    "source_sha256": "704f2dd5163c276f773580aa424f39b8832fbb7b625d9630d8e2a0fcd5b01894",
+    "target_sha256": "33c2bdf8f27d8e067c0b973e469935cd37098cc2736cf6890674599f0eb2a139",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/rewind.py",
+    "target": "staycode/commands/handlers/rewind.py",
+    "source_sha256": "8dda69c276991bcbc45970cd7f6f4b7ba3e72fea4e01d87efbda90aa757391d3",
+    "target_sha256": "72aadb0e6d7285ff823edb65b07886828ba48bc2e81ba5ee990ed3e8b2ee0825",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/sandbox.py",
+    "target": "staycode/commands/handlers/sandbox.py",
+    "source_sha256": "45b628e0c51d47b57a5b22834fc86f1f2e44f68d075810e72f8d1b7ac2e20aaf",
+    "target_sha256": "9cbb7e8e030757d325720cd669847c9d961d6b2d383dd95c10fddbd431eab9c9",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/session.py",
+    "target": "staycode/commands/handlers/session.py",
+    "source_sha256": "42dd2a433df463273ce73c0868f976c4f6dede866f8a3d4c46f3053efd04c179",
+    "target_sha256": "ddd221f6e4dc61331fbf318d5d7aee0c26933cf4f74bfb1f7bb937b2d0550997",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/skill.py",
+    "target": "staycode/commands/handlers/skill.py",
+    "source_sha256": "06ab821a1a3397c0ef4e2d4b3a17993aca8e36a9802950fc8c80296966116926",
+    "target_sha256": "4c9bbad594ec3f5efb59e73f8ac5331ceaa8734e92625a54b3f32859e330afb1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/skill_register.py",
+    "target": "staycode/commands/handlers/skill_register.py",
+    "source_sha256": "b3bc8e1f4ce5ba793d82b50be124a058451401f3ed7664db7c6a4515225d9f66",
+    "target_sha256": "3eed231c6e6d8335b41bc5e8b4ff6bba1a2626ea5ff78f273e10320339f89bf5",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/status.py",
+    "target": "staycode/commands/handlers/status.py",
+    "source_sha256": "03e7912136c0fdf61c73c1064f70a6b10f18bcc67f094acedcdd6de1f83edc96",
+    "target_sha256": "3bc53b92ac29e651abb1f9c533a17d2f0638abec320c4d35d9f0754f090ab651",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/tasks.py",
+    "target": "staycode/commands/handlers/tasks.py",
+    "source_sha256": "7ff315f0c635654e3b60de2785ca1674ac2b7783ca39659119024c20451f0327",
+    "target_sha256": "4145c0f8c625476692a7ee2385afb77d60f2b4a12cf17061910a738930b9da56",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/trace.py",
+    "target": "staycode/commands/handlers/trace.py",
+    "source_sha256": "2f41a5db79787bad7fb42cf9a37a9bbdeb6628f9bbb8276366a794c324322108",
+    "target_sha256": "1b35aaf5bd99c14c46e52fa656cb82f4325aeb3f83767ff12cd2b26925deb996",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/handlers/worktree.py",
+    "target": "staycode/commands/handlers/worktree.py",
+    "source_sha256": "abd0ebaaa8d11016b50c2cc009bcd936d3c6e13d703eb6c56311ad8754d254ea",
+    "target_sha256": "1cbd8adc9ecd2b27a1520125daf3d790b2351b34e9e8eac4253c97f77227c36b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/loader.py",
+    "target": "staycode/commands/loader.py",
+    "source_sha256": "d63d5198759595e864fa87512aef0a0cb8005c35013dd742d607c41d0befdf70",
+    "target_sha256": "4fb35c8ffc5490b6946e803e53a0b7a625b8ebe2a73cbf819ae074a3886a6b88",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/parser.py",
+    "target": "staycode/commands/parser.py",
+    "source_sha256": "a603158122bef60ed9e3fb155f313e9c6cef94b3ebfff282521e922b11d5f6aa",
+    "target_sha256": "256c1ee2acac72612b20ad924f589669a3a813d90f6f2e5c25c650544e2b959d",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/commands/registry.py",
+    "target": "staycode/commands/registry.py",
+    "source_sha256": "fbfe1a4ae8a29b77b2cb82a138f4666b318d370f05d74a02e39f233220a9e453",
+    "target_sha256": "1d2e072372ff5d6d76b903ef56410e1be39f9fdd1668983377f9743edd668b7b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/config.py",
+    "target": "staycode/config.py",
+    "source_sha256": "798f717794dea2ac47c4cddc5698a72adfea882ef3447784cc4d6b89c5dfbdb2",
+    "target_sha256": "b61727fd0bab9b554d15ab9d3ade0e103004abe34ff5b4bec077eef08b8c988a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/context/__init__.py",
+    "target": "staycode/context/__init__.py",
+    "source_sha256": "be9db6f876d52ac306be44343767a6f14cc81a65109c509c902a721dcbdb80f4",
+    "target_sha256": "611f51ab6b0a7926f707170861bd14ad67e20f42975ea962469bb1ffb6ff4a09",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/context/manager.py",
+    "target": "staycode/context/manager.py",
+    "source_sha256": "047489fb22fc195f6cab7ec7fef2ae4fd92470432528d543c8a003e53345c810",
+    "target_sha256": "1c611c09b3410db7230fe6c7f6fa496f09e953afaa0b39bc66247483c6077ad5",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/conversation.py",
+    "target": "staycode/conversation.py",
+    "source_sha256": "c8d04ebbc3bb06ca0c6c8c0a410bba87288313b85a4018718748e8067cff7772",
+    "target_sha256": "418c420f4960a794a6fa5930041254e14116addfd7e6f6dab2e3e2e3862808dd",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/conversation_pairing.py",
+    "target": "staycode/conversation_pairing.py",
+    "source_sha256": "ce05efbffba28594bba6293046dc602b036e9f9e1501f88b5c714ef1407be6c5",
+    "target_sha256": "f953506cd3687a38edb21f68c91de273f2bfb556565e7d59cedd869dfbe7ab20",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/crashlog.py",
+    "target": "staycode/crashlog.py",
+    "source_sha256": "e6f60af43c5a3e0bd596a036348af40d84587afba715c512360c3a8f9ed18ceb",
+    "target_sha256": "60776e9e0e9215189fecb46355f255407bdb252ee0f909c4d44b8ee39cf5fce7",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/driver.py",
+    "target": "staycode/driver.py",
+    "source_sha256": "b262ff54e751db7f528325e01b33d02c686c8db1722fda7f220a9278023ae8a1",
+    "target_sha256": "bbe2088e29e849f4a3c5c1d402ff04edd572d5e14ca820e1395741f131a39496",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/filehistory/__init__.py",
+    "target": "staycode/filehistory/__init__.py",
+    "source_sha256": "9c51aa48decf8958cb4cc9058e651f279093ca9ec458592aff9e6d9c12cf209c",
+    "target_sha256": "7d273bdd494b4e18edd53daa545a8dd0cd549f9a9d947fdc283d1b7fe01d02cc",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/filehistory/history.py",
+    "target": "staycode/filehistory/history.py",
+    "source_sha256": "44ff52bcb821967b35f4af2df32ceee1f29be3e192fa2ba4463fd6ca8978b9e2",
+    "target_sha256": "a83e856133f58857832a73e39607a32e87dbc08524e1cd1e95b561d6af2f6a7d",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/__init__.py",
+    "target": "staycode/hooks/__init__.py",
+    "source_sha256": "eeadeda2a7005fef1b6736466449cec121f75d949dfd014de90fa46a873641c9",
+    "target_sha256": "3e9b2e8813e7d8befaeea485024b9f0f13746c495bc2526d500692c8f561d04c",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/conditions.py",
+    "target": "staycode/hooks/conditions.py",
+    "source_sha256": "d11485198df8f4ebf76a009c4b13eaf51883ae0a1bbc14f734779d684817f870",
+    "target_sha256": "f0c0e503abd8bf6d2e73611095b762c60a4c83e0db54db02d26cb6c9f774d975",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/engine.py",
+    "target": "staycode/hooks/engine.py",
+    "source_sha256": "3849e6ab273da8359b361e90cabadbb0da11bb547b0cc768294d30611a336c55",
+    "target_sha256": "fa9c9f7b7fd75c9369b8fce669520aea14d1662e533690a7d0f7cd0ed12d19cd",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/events.py",
+    "target": "staycode/hooks/events.py",
+    "source_sha256": "80ddc57659d63b4a6edca6254f1e95d6e0b6e06a6101749e33368503cd6ee4e8",
+    "target_sha256": "6942ade9f4ef7580b60981a817ac71d119dc1246a6325b4118071f5afd98bd76",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/executors.py",
+    "target": "staycode/hooks/executors.py",
+    "source_sha256": "6320bc6b049e9b15bf819dbc760b2e65ad46255f52b4b24b6f202cecd891aa72",
+    "target_sha256": "06cffab0fb1c38602861a783f2b94986870608501ef4f66f5759c25551e76212",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/loader.py",
+    "target": "staycode/hooks/loader.py",
+    "source_sha256": "f70cd9c61d908f98f7666171aae1789f806cdd5bc04ea518f2e6219c01d38914",
+    "target_sha256": "c4c0cf3ff1f5b3ec0f5786ccfb5024ac5666a307bad2e2ae494f9f53d0ed3604",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/hooks/models.py",
+    "target": "staycode/hooks/models.py",
+    "source_sha256": "0a07d8f977875f523398ca5972eb11c1be0a074df7045711e758f92bfb416e19",
+    "target_sha256": "22c8f6c55b36f764b613f731b9498fd79327884791d13d815ed74c0d673c9823",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/mcp/__init__.py",
+    "target": "staycode/mcp/__init__.py",
+    "source_sha256": "1c61fd6f08dc5e6de98ab97e8644246922a93ee3e879e9425d9aa23276b35231",
+    "target_sha256": "d4854fd16be11bb970be02f9e8ae9a0b0c9a3e85fc0ef3614ba685b4335ce324",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/mcp/client.py",
+    "target": "staycode/mcp/client.py",
+    "source_sha256": "72ed3a228ec47ff05e3b239faa6258df4d2d21e7ba3101793c1e70ce61b2e2dc",
+    "target_sha256": "520ebdf0c5632a904015cb5fc199bd97f6d658ff1c2cc030c3e5a52728f2837e",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/mcp/loading_strategy.py",
+    "target": "staycode/mcp/loading_strategy.py",
+    "source_sha256": "9bf7ba27dc960a3df0ba00a620ccc6b3a662c54493ff8d95a01800036ea32daa",
+    "target_sha256": "a7b4c467a8c96d732e0e58cb4d2375c9204f009e5899b2d56779f73f76ac0f8e",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/mcp/manager.py",
+    "target": "staycode/mcp/manager.py",
+    "source_sha256": "5d9554dc29811f4d087b5af8b4a2455989ff723ab2163b654d692763ba9fed90",
+    "target_sha256": "ce50a40289c87bc58cdc79edf3791102bc8c94ee51e828522881ddaa8b74151f",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/mcp/tool_wrapper.py",
+    "target": "staycode/mcp/tool_wrapper.py",
+    "source_sha256": "8cc585b0aa26a585d0def919c67cfb633ad0045c70f1913ae3906c786358ec84",
+    "target_sha256": "9933a0ae771787cebfdfea53737ea7f971b4c25b47a68aa80f3b242f6308cf99",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/memory/__init__.py",
+    "target": "staycode/memory/__init__.py",
+    "source_sha256": "f13673c1b582708b7a28da1173ebed8595522484cbcf2a55c81050583ceeaf05",
+    "target_sha256": "57ccafdea70f7f780adae0721d4c3ea396b3ea0c67f64363f8aea4af730f9fd1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/memory/auto_memory.py",
+    "target": "staycode/memory/auto_memory.py",
+    "source_sha256": "541b09b4ab66af430ea6deffc895bdf46cf48c5ad5d98438c3a68218199be73b",
+    "target_sha256": "24ca53648104fa33d7ce8d003d79582c99c28238dcacc197a1bbf886e2f545a2",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/memory/consolidation.py",
+    "target": "staycode/memory/consolidation.py",
+    "source_sha256": "b948f370fc1951fcccea66bef953832847d443bede7abca09963a380c5d4e6b6",
+    "target_sha256": "2b47373858b3d3bef871490834c31c47dd043ad841ce7fa33e76291c3550afa5",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/memory/instructions.py",
+    "target": "staycode/memory/instructions.py",
+    "source_sha256": "cffdc05f3c495fab8353a39ae1343138d027775813e90cc1cce947d5b5db1ed7",
+    "target_sha256": "28448249babea0f9dcbb5bfc2796be261ab4ccb17a30346bf80e3a4fe45938bb",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/memory/recall.py",
+    "target": "staycode/memory/recall.py",
+    "source_sha256": "e65fad169e961c593867327cae85c7644222e708b394c9d8b95cac46a3c8ca09",
+    "target_sha256": "2bfef53007dd80e9b736d237ab618e946f9dea93f3d1bccbfcddc5341528267f",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/memory/session.py",
+    "target": "staycode/memory/session.py",
+    "source_sha256": "29680ac533fe7a8c2591669e8863b67f3a856d543890df5224f36c541e7c9b0c",
+    "target_sha256": "10880c1a5b2301aec326a687b16492e1b9ef493aabbbf3f433ea60ce2a1a14cc",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permission_dialog.py",
+    "target": "staycode/permission_dialog.py",
+    "source_sha256": "6976ba2706d03c27a05b41daaefb95061dfa896c8d17f3b97ccfcb7ab110b8eb",
+    "target_sha256": "8965ec687ae2199a484986f09037ff1e4341b76a31f914514946d9243fffa20c",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permissions/__init__.py",
+    "target": "staycode/permissions/__init__.py",
+    "source_sha256": "4ba4fce645a7b225cc349bb15c785282b238d2f7a5f0e6b21d2c0df67dd6ed0b",
+    "target_sha256": "34554733a07675b3c05d33ffc946833ca439ce96a20e4e31d0e62bdaaa5de3ae",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permissions/checker.py",
+    "target": "staycode/permissions/checker.py",
+    "source_sha256": "771a35937c2fa318b075dbeb915d2ca52035339fe19594d3ad23628c2785f6ba",
+    "target_sha256": "eb44b3ab2f5023b53bd9f259390385369b73bfba642d5990d6649993076ddd34",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permissions/dangerous.py",
+    "target": "staycode/permissions/dangerous.py",
+    "source_sha256": "6de120e749f1aaa3ea12fe657891c0b2bf944d26e5de33bdefecbd0bf6443d95",
+    "target_sha256": "6af338d483f108e620cc4d59c6412dde76184d7f628fa8a25dea899e8cf55e2a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permissions/modes.py",
+    "target": "staycode/permissions/modes.py",
+    "source_sha256": "524406d0e2ba8f78f863296fd59adb5edd6c955e36525672a488a50a7dceac28",
+    "target_sha256": "0e4343954ae05b3d46fb3cec36a334f1364acdadeaa19697c8ea09f092cfa187",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permissions/rules.py",
+    "target": "staycode/permissions/rules.py",
+    "source_sha256": "fa771a335a6855f858e06ceab725b6306db7f08f795e65e89c84dbc336051b90",
+    "target_sha256": "62a0798d22820027be3c553c4d5bea46f1b5d445be2c7665eab1f19bbbeabcf9",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/permissions/sandbox.py",
+    "target": "staycode/permissions/sandbox.py",
+    "source_sha256": "4d3c77f734b9df5c200b899145393838bcffb3443125b4c21bb561134836a344",
+    "target_sha256": "089cfacf24dbdf6a6d687b7b674688b155ba5c20a1090e35f457810427b99fbe",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/plan_dialog.py",
+    "target": "staycode/plan_dialog.py",
+    "source_sha256": "2cd62b557ce95613e2642244402d306ab468b8b2e4a5af01e23d95281094a302",
+    "target_sha256": "020da16214ab1d3de35379573045b46b221f3657ea04ac2d1ad8cbc5b5e52534",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/prompts.py",
+    "target": "staycode/prompts.py",
+    "source_sha256": "ee23755ef825f332223383ddde3fb41c72f1e1a111a8a2fc49270527416cd0b3",
+    "target_sha256": "1b9b5421aaf2f10bf5e7b8a4d29166713e4cc3ff340f79d11d854a63d6cc7b63",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/remote.py",
+    "target": "staycode/remote.py",
+    "source_sha256": "9b6809339bfc6f063522ed704a5b2b2df223fef45db7d34cf62e2e43907f2aa0",
+    "target_sha256": "2df7dcecfb5515d97da0f5102f5c010b9c2cce3edfe5dc86b92ccc2caa1436f1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/sandbox/__init__.py",
+    "target": "staycode/sandbox/__init__.py",
+    "source_sha256": "9c0bf0e02715611a81618dd68d1c2cc62e8426e912bf3d87b56371cc3ddb70c8",
+    "target_sha256": "9e4324035bd72673aade223376d3e58597d84e256fef21d01d349a68d7e10b60",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/sandbox/bwrap.py",
+    "target": "staycode/sandbox/bwrap.py",
+    "source_sha256": "dc1f5cf9fb40dbfaa720936e413d5b0c76cd22c622f24605d96e960c70e6da66",
+    "target_sha256": "0ebe0567ab9814a25c2ae74c38f2800c7664f83bd0e6b0305489c2471b5b2bbc",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/sandbox/seatbelt.py",
+    "target": "staycode/sandbox/seatbelt.py",
+    "source_sha256": "01f0195cb029c81f84cd1a5faab56bfd5ddfc0af59341911d926baa942006752",
+    "target_sha256": "19cde88481675183813569a24425d311ef899e7ba74e012ff912438c02d738b8",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/serialization.py",
+    "target": "staycode/serialization.py",
+    "source_sha256": "d7c115e1a966a35dbfd38d1ba74adbd7438df9f281b96673949f443761ea1edc",
+    "target_sha256": "425d72d6ea6323d88e7c8bb304dfcecd18c1c8edba3f679a689347be2b7407ef",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/session_dialog.py",
+    "target": "staycode/session_dialog.py",
+    "source_sha256": "f0e7f8d2b6421548a478885a0ea1437f8f413e6a84483f10b3cd315a149d8353",
+    "target_sha256": "acb5285a5a4b03545c4288d949b6e68cbacbe9a34edf0a282f0f9c5f1385e4de",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/skills/__init__.py",
+    "target": "staycode/skills/__init__.py",
+    "source_sha256": "e3dd72fd2125adeff487dffa4556581e34ad069f2b94224b24df91a6832b12c5",
+    "target_sha256": "dfb7a84c67170db68a9a97dc33dce94777dba20ac0b9e5df55ce7a762a57b71a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/skills/builtins/__init__.py",
+    "target": "staycode/skills/builtins/__init__.py",
+    "source_sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6",
+    "target_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/skills/executor.py",
+    "target": "staycode/skills/executor.py",
+    "source_sha256": "adf85d6eca7a44ffe3904bf8adc8f20b3e415aa22ffc46b31f4f8a71680624f4",
+    "target_sha256": "91cf9fca635295bce8cfdc7f19090628f394795b077696feba646a73fcd43522",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/skills/install.py",
+    "target": "staycode/skills/install.py",
+    "source_sha256": "68dc8a2c700ed11de2f3ff99511976e43df17f0034b85c5bf7fce9927d7690e1",
+    "target_sha256": "79cb19f05b6d65824fe55b9719406539b7e3c8a7e22e7d7e9c97da2a008b35ac",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/skills/loader.py",
+    "target": "staycode/skills/loader.py",
+    "source_sha256": "750b8a4075e977641f2099662073463d803e2db5a792e6f4003cd20c95293838",
+    "target_sha256": "4ded0d06567f7446371e84f6b274e9d8aeec7f957816d722028b3d666b23ea0b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/skills/parser.py",
+    "target": "staycode/skills/parser.py",
+    "source_sha256": "87a28c8fd0ed2222ff83c7da0ab47129c46058ffd02868e67bec530b5c60ec2a",
+    "target_sha256": "1741a3d9f43282047f9437256f0c61f59c6357bfcb7ba5ae300bfee24ac669e8",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/styles.tcss",
+    "target": "staycode/styles.tcss",
+    "source_sha256": "bef599b42c5e490a7a7d5fd6f923910fb3163f7b1ee5f7e16ec4e515b346c826",
+    "target_sha256": "bef599b42c5e490a7a7d5fd6f923910fb3163f7b1ee5f7e16ec4e515b346c826",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teammate_tree.py",
+    "target": "staycode/teammate_tree.py",
+    "source_sha256": "744b0ffdd0ed84385e2b3e5732cdafc1c384f9ee57f8f424e39c9ea30543b940",
+    "target_sha256": "cf1e1ab6a542fff950fb2b3971c23e000f17825a4bb29712731f48ea3e53d29b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/__init__.py",
+    "target": "staycode/teams/__init__.py",
+    "source_sha256": "0fbc8c2d541304b512cb416ee347980280dc5b88688f0461e9ac6a13100d3517",
+    "target_sha256": "d0d0aa02a90d6c007e9756e0c27520fff99cc074bc6d795b3a326c2b7f2ea792",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/backend_detect.py",
+    "target": "staycode/teams/backend_detect.py",
+    "source_sha256": "9e67113920cb9fdc3b8167685c2da4663d319b877af83c8488eb56c6cd241b2d",
+    "target_sha256": "17c8c2956f8591dbd824c16da89468fc8b83c8a46e5da2bc6c6b76b93d55b2c3",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/coordinator.py",
+    "target": "staycode/teams/coordinator.py",
+    "source_sha256": "9b76858fc95a708288c9d5be75300e0405c85f935d5c3c78bb82a095f797c8fc",
+    "target_sha256": "cc6555322d88c87ab1fc7cf3d9bebe8e9152c2f1123c482baedbd3cee6d9d69b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/mailbox.py",
+    "target": "staycode/teams/mailbox.py",
+    "source_sha256": "1cea467e3d1528e3d73118ce24bd51ca4dd9450b6361e6a520c15fbcb5bc9266",
+    "target_sha256": "53f28b71b5116a83c26144b87e8d748a6eeb72715395321be955d29b078c8bf5",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/manager.py",
+    "target": "staycode/teams/manager.py",
+    "source_sha256": "0e9202ac5543d7bab700dfa5a43ef16cd11844a3d2cf8e52d9bc36f0705ace5c",
+    "target_sha256": "c1502af2e50c43b6ef7874be6a8c1a2a9d9e2fc934a3aa05813001d9ecd1c667",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/models.py",
+    "target": "staycode/teams/models.py",
+    "source_sha256": "e485167560adbb476d5c4212922be1606480917d99773d00ab1dccadfdbad710",
+    "target_sha256": "8b48df5331b4e03650decdc74945510cd3c0c6ac73bd13309b4b91aca3448e4c",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/progress.py",
+    "target": "staycode/teams/progress.py",
+    "source_sha256": "3fd0b2adf15690dff0273015558f787226c4d14bdb0167b521923531ff55cd3e",
+    "target_sha256": "07e72e799bd99dda83aebb079e6379a29d22cfd91d90c91e303b89d01a7360a2",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/protocol.py",
+    "target": "staycode/teams/protocol.py",
+    "source_sha256": "d31d34e359133ef900318896601cb066fbf7846e5b7d07b983ef1b40ef375b45",
+    "target_sha256": "e245bba3c02080e53b58f78d463fbdace0fe10d30cc0e4393cdee1fbe2cf6148",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/registry.py",
+    "target": "staycode/teams/registry.py",
+    "source_sha256": "81e4030eaa09b8961409072e466c2866b11eb1caf06f1295c721bbc1acb353e7",
+    "target_sha256": "5f6a3190b88fb735555e6042f35580ba6ef9771d75a8b551c2ac0f6f251b4d19",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/shared_task.py",
+    "target": "staycode/teams/shared_task.py",
+    "source_sha256": "0bbab37fefc2c23ee53a98f086444e30eb597396acae72b694b6c60134724c26",
+    "target_sha256": "1a2a0ee9cc0b4b6a5b8d329f550941b09ded3b62a74068d35c2d3c24e95e68c0",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/spawn.py",
+    "target": "staycode/teams/spawn.py",
+    "source_sha256": "2525c2e2ef39a1fe78acf545ea8c743b36bf5b2534f6a0b628cc1c1ca909d5d6",
+    "target_sha256": "f6b297d2a3c6f844ca1769f4dbcf49eaf24100444c436a336072a576f2ba458c",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/spawn_inprocess.py",
+    "target": "staycode/teams/spawn_inprocess.py",
+    "source_sha256": "a503f586d4efe8aed81b819affa0eaa2ac76db3c9fe6670e174335c19328dbeb",
+    "target_sha256": "172da41738dfe2e55f2389c05ecd32bbb44774141d65a248986b91818bc3fa9a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/spawn_iterm2.py",
+    "target": "staycode/teams/spawn_iterm2.py",
+    "source_sha256": "bda63435eb3780e530b3650aedec7eaf48c8bdd94912293c29aa9cd804a0f66f",
+    "target_sha256": "82f24730d1a6738e9d662969cc6e82328a33645088586873e9b96abd6ec14fb1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/spawn_tmux.py",
+    "target": "staycode/teams/spawn_tmux.py",
+    "source_sha256": "4e0082d43b5c8a83be4da0eaa7b12c480d0547979b8cd6963266791af70b2b22",
+    "target_sha256": "14bfbbbc70c311776a2b66fe2609dc2d6a721d36da9ce459fecafa1256d66ea9",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/teams/transcript.py",
+    "target": "staycode/teams/transcript.py",
+    "source_sha256": "98fe1d12ad09a19cb35c88ab7d0e35ef3832e791ac15096eadf64137742838dd",
+    "target_sha256": "06ae6dba366a9ba00b46bebb3a475c65c99a2f3e6cdde01e5ee063167d1f78ff",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/__init__.py",
+    "target": "staycode/tools/__init__.py",
+    "source_sha256": "c9e43e00b40dc3c240f31cc8ee76d61ceb100965f07bf0f379ee6ad20afd8f32",
+    "target_sha256": "2d64ff89f1e6333382e0de1e85c846c65284b57922fee7514d92689889ed09d7",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/agent_tool.py",
+    "target": "staycode/tools/agent_tool.py",
+    "source_sha256": "f973dcc2b3ec852c6c0320b35b4725830b692c0535f4a0412139a06622b9ab86",
+    "target_sha256": "712c68e2b057784000814b3981a757fc43b50a561df2aa408b45c45eb5b76aed",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/ask_user.py",
+    "target": "staycode/tools/ask_user.py",
+    "source_sha256": "fc3bbb851597308890da4cf2a62a0feff5a1662fd9c4b35d8d9a5abfe171c6c9",
+    "target_sha256": "3fd7cd9acd83f6869b9c1977ee3262abdc9da2759218b4f82d71c9268c22df6b",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/base.py",
+    "target": "staycode/tools/base.py",
+    "source_sha256": "01eafa2f9f1bcaab2d5b753c6b8b38adb812eb4d7950edd200279550e5ae040a",
+    "target_sha256": "5fb8ef4d6a1a490138edd0c8a84559c309f43d3b8099603d7046912da634218f",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/bash.py",
+    "target": "staycode/tools/bash.py",
+    "source_sha256": "68d3e0851247e625d5d7a22a6dd931ddea7d2b2184f876dc859d4db2622738ba",
+    "target_sha256": "6cde9da36e7b6ab970926b1c28fdf3ba3c68318309b3830b9f952d04fb9b4b51",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/diff.py",
+    "target": "staycode/tools/diff.py",
+    "source_sha256": "0728eddb91ff12728f1e2febc9bd9e92d8bc9896a2d1a806d777c4cedac3258b",
+    "target_sha256": "c1dc3341eb5e4ea7afd896e9b33902fe672d137f655e6a2199a81844e94eea78",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/edit_file.py",
+    "target": "staycode/tools/edit_file.py",
+    "source_sha256": "4db4571b556c0f06340b1ad185356b98a2eb939ecdbddbae64f0ad51992bd5b3",
+    "target_sha256": "d062029e18ee183f3f76e7e6b6a89799b9e9d4beaa3994bf465cf645ef3444fc",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/enter_worktree.py",
+    "target": "staycode/tools/enter_worktree.py",
+    "source_sha256": "d099ece2784af5f843ec4d8ce47f967b99125838baf267a06cace47258a5e67e",
+    "target_sha256": "7e1eb7a0a7e3807be722ffbd426764e65a7c2d1df42c3fe0aa3f6d898e33f265",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/exit_plan_mode.py",
+    "target": "staycode/tools/exit_plan_mode.py",
+    "source_sha256": "754375d9f9710fca1b799c96045edf6dc7b76dd719bb160d2663ed8e5c5b2aa4",
+    "target_sha256": "a9c95a84c43f7b3a2baeda5b313a61e26c14676970f57127de5b3c84f3d297ba",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/exit_worktree.py",
+    "target": "staycode/tools/exit_worktree.py",
+    "source_sha256": "2e4031c3023115d94b3a72c5501f5c39dc2930fe8950ea34cf60d1af6dd51950",
+    "target_sha256": "66193d44854f2c46a074fabbaee4e4e7a352994124791f797e99796f57268822",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/file_state_cache.py",
+    "target": "staycode/tools/file_state_cache.py",
+    "source_sha256": "60d62c35962146b0d6948fe8f0cc6a298e4d3edb4f1fb5dd04c6e790eef3da3e",
+    "target_sha256": "d00f78c6fb55318d7a1c8fdfce299bbd5fddea6780dc0c6256fab27956388501",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/glob.py",
+    "target": "staycode/tools/glob.py",
+    "source_sha256": "d02efc63977d901a75a0145866ef49eeaa0c292345b14c6ade6f734a77d61d24",
+    "target_sha256": "674fd9b5c2e2df0b146115cd0fd31a1dcfe3b5420325211326babb052698513d",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/grep.py",
+    "target": "staycode/tools/grep.py",
+    "source_sha256": "0fa74e23d8c0d50452d37ee2192af370700659598d0d6196bbfd60bac62f6b59",
+    "target_sha256": "02f0ed35978df3376b5db082d80b6e6467ba64f5428698b9fe4ed1d2d1076c0a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/impl/__init__.py",
+    "target": "staycode/tools/impl/__init__.py",
+    "source_sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6",
+    "target_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/impl/tool_search.py",
+    "target": "staycode/tools/impl/tool_search.py",
+    "source_sha256": "c4d29f9883ab9fb7b3469df0ac20c1e6d1420a447c0f78988e4f334c1ae512bb",
+    "target_sha256": "7eaca55bdafe5f366092b2bfd5e6653729014a78451f9188dbcc63f9b378ef0f",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/install_skill.py",
+    "target": "staycode/tools/install_skill.py",
+    "source_sha256": "f79f76e8243f57c67df761d57cc5a0efda969bee199319042cf8892b24dc4a9f",
+    "target_sha256": "418ab72bbd92e4a9960179fdaf41adf0b6c72c3174645b8c0b0d73f873d6026a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/load_skill.py",
+    "target": "staycode/tools/load_skill.py",
+    "source_sha256": "de182895ac9ccec0afe421ca0faa517fa061c3a23f398652fc0d19b35200ad1c",
+    "target_sha256": "e82c287f873ba17297d7dfc80b914916b1622a770405d369e1d86ab3b04ccdad",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/mcp_call.py",
+    "target": "staycode/tools/mcp_call.py",
+    "source_sha256": "5e01866e216377282c854acf348dbf0d7748d483cec2ddadc7e0b74f9960c990",
+    "target_sha256": "6d65e761d8fa4c35bc49e057aa18bf795de968d6f633507f4a1be7ac8d8ae469",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/read_file.py",
+    "target": "staycode/tools/read_file.py",
+    "source_sha256": "3d6700cd1409862dfddb03b76aa3c35b584a00102a5562cb578c4c4b86e2a9a2",
+    "target_sha256": "c508b7f71007a8a1789b7367a032dcd9014d3f955ffcf393ad461810e26f2db6",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/send_message.py",
+    "target": "staycode/tools/send_message.py",
+    "source_sha256": "b136ef2dedfaffb53a73b3526355033bacd30d50a97eff46ec06e909c6923118",
+    "target_sha256": "1c4630c9293cd02b20561a8076a41062afbe44eb62232e58d89fd754a9f62420",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/synthetic_output.py",
+    "target": "staycode/tools/synthetic_output.py",
+    "source_sha256": "76e6e99f5a294ee740c50a9a6f73acd6ceb3dc6dd80bb27fb22faeb7057a3fa3",
+    "target_sha256": "796d66dee04e01bcb46b10dffaee20c100a65a7b238e368679565f006fc38bda",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/task_create.py",
+    "target": "staycode/tools/task_create.py",
+    "source_sha256": "bcbe756e5ed2fabff5be56ad82ca2959a7a77eb51427b30afa53cacab445ba87",
+    "target_sha256": "3b10b46ff5fcdf9716847586b499aaa3cc76622cfc377d8019ec44a634e2141f",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/task_get.py",
+    "target": "staycode/tools/task_get.py",
+    "source_sha256": "f6e1db8276d63919203fd3f81701fc8d7209cfa81481a02f00358184425f6934",
+    "target_sha256": "8ca04515d3ae9f7db63e8c44f88e16d42d1c744f7eddebfa34c117f063873c58",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/task_list.py",
+    "target": "staycode/tools/task_list.py",
+    "source_sha256": "4ae9e5f70309b5c1f4d2800daa208c127978eb93492efb36fd0aecfefd5fab29",
+    "target_sha256": "227d00d59afd4fb5ae940a8c902d7312d4e322f6b047887f4d32db801d629799",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/task_stop.py",
+    "target": "staycode/tools/task_stop.py",
+    "source_sha256": "e4da3edf4b84d5a0dcc46db17a77a1a1df20968fa5383c730599f4627145803c",
+    "target_sha256": "75309a4ac3cb8eb1656cdc75c6a101781b1b5c7d81a418fb867cd5854aa7130a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/task_update.py",
+    "target": "staycode/tools/task_update.py",
+    "source_sha256": "a24a30052d33448e0295ffe405b717b33825d6c37857ca716f0e2fb4d22fa2d5",
+    "target_sha256": "caa5965388e80a05249831cbcee928e3f13287949ed15bead13f29eccd52ff49",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/team_create.py",
+    "target": "staycode/tools/team_create.py",
+    "source_sha256": "3dbe6b683a6ba0721d3e7f9122a30518527c01f82d5e3ec442574345545ac91f",
+    "target_sha256": "582d118517e18601e09603ed8146f9d9ef5bf386d16af8169fcb452591b4fb32",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/team_delete.py",
+    "target": "staycode/tools/team_delete.py",
+    "source_sha256": "f85bca5f3df7198dc7bf34935984780ce9e69a6ee957f0935b87c5c1fc78e1ec",
+    "target_sha256": "8b95a23def46bf4df4231782b439f98744cef7520ddfcfaead9f1088cde8d787",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/tools/write_file.py",
+    "target": "staycode/tools/write_file.py",
+    "source_sha256": "30c267ba4359f537db11f7e5480cfc6912ddbd49836172a03a6c5b16388f8bdb",
+    "target_sha256": "4c3dc073a6de6a2b25da763b70ef7e6dc5415ba2bf6ebfb05d3dad368c504a3a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/validator.py",
+    "target": "staycode/validator.py",
+    "source_sha256": "824f1d0845dbd2548c7a31350bdbea9f91ab63a7a974a9773bf887baf2038b88",
+    "target_sha256": "ce3230812177cb7ef6ac927ba3761d7c564bbaa9e0df78079c4ea1f13535135a",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/web_content.py",
+    "target": "staycode/web_content.py",
+    "source_sha256": "48f68a8fe57ac85f3c42734ea1849c1e6b96eb44903c1ffcd308ddb7e9ba4eba",
+    "target_sha256": "15528d2c820ba0e5505ea37ae12a79233a20a1e141e53cf53da79f1240107bd0",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/__init__.py",
+    "target": "staycode/worktree/__init__.py",
+    "source_sha256": "3a585e9cdc8bb6cc49ee9295389dee68a739b3c4802dfc5691a2a98ab470d364",
+    "target_sha256": "042dc01367c6d793aa235a597f0b11855b63b4076d6624b58f062886c5868a7f",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/changes.py",
+    "target": "staycode/worktree/changes.py",
+    "source_sha256": "c6fb2558390f33730f600d9da23dbdb32d2680658271ea03d67cf5368529e1d4",
+    "target_sha256": "c20d81f5cd6f9c29f61b782d0a6081bf8bb75c755b417afa0e17e650d879f0d2",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/cleanup.py",
+    "target": "staycode/worktree/cleanup.py",
+    "source_sha256": "682639b1b2e5cd2cbb0e589858ea91aa4ae03a0cd7114ce4b1376728039cf2d2",
+    "target_sha256": "05bd674a61d75eb40256a707709ca5d0807980eccba802b099141a03be29236d",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/integration.py",
+    "target": "staycode/worktree/integration.py",
+    "source_sha256": "e591873be8edd05b148f98692407968eb39c721d7156092c15d698692751c88e",
+    "target_sha256": "348edafb2a8738c96328dfd65b8d3f5e5b208d7a0f183d28e76b98041749a7b1",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/manager.py",
+    "target": "staycode/worktree/manager.py",
+    "source_sha256": "e2d174439a5a6674fcfe7114d7dd197908a35f0db8ddf09f3a6be89c9a0f72d7",
+    "target_sha256": "0992825185ef40c1e9374fb752d10902a2503488b4d860860832432122ac8aa8",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/models.py",
+    "target": "staycode/worktree/models.py",
+    "source_sha256": "96ae44187b0f16061909feddaebe31a3accbb9cf3f1e9d1abfce82adab9a5eff",
+    "target_sha256": "9a96ee5d9347b6361897f722c9e0f214b7c5b1995dd7856531190c6dfbb4ca83",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/session.py",
+    "target": "staycode/worktree/session.py",
+    "source_sha256": "8394b33e4427374ef1d46fd5a20bac85d8a6b20eeb7b00b897a5911e8f0cd706",
+    "target_sha256": "2c2c21d3e7fe098319648ff4cad5cb09a77c4a99d7f1ccacd7665ac610d52348",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/setup.py",
+    "target": "staycode/worktree/setup.py",
+    "source_sha256": "220d3d72283334ad7d68a28734a0b207ca395b88fa3c66b8b24496efcf8f7bd6",
+    "target_sha256": "2d3b0d279ba3f84fdf7ad0533943e99ce206968ed308dee958bd0d6694bbe87c",
+    "license_unchanged": false
+  },
+  {
+    "source": "mewcode/worktree/slug.py",
+    "target": "staycode/worktree/slug.py",
+    "source_sha256": "bad85f5d429d23a8355b113d324964fc0f8d18f71a4004cc9eecc68ab1957fa5",
+    "target_sha256": "d4e545ca02cbe57f92e2826370903357eeec28bc22a0ff49ec47dbffc7dbf00c",
+    "license_unchanged": false
+  },
+  {
+    "source": "pyproject.toml",
+    "target": "pyproject.toml",
+    "source_sha256": "a744704f8718d021f19d2b1ef48e36817f688816677115a61b307738c55eb627",
+    "target_sha256": "4e4fccc8bc7d203612f451fd030f715b46ca55450983d8fcaaa13b3c4fdba2e7",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/conftest.py",
+    "target": "tests/conftest.py",
+    "source_sha256": "0fa01230cd1543e02322e8162e87dee049acbe762eed1239fbf0580458b1758a",
+    "target_sha256": "16f7ac381b8b45e9f1e268a4b6cfd7e9c048fb6765b39a79519b82612b8093cc",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_agent.py",
+    "target": "tests/test_agent.py",
+    "source_sha256": "20a0815fd7ddc103c0da71f78de5d15adaa85a3b36a838bc294b777036801d5c",
+    "target_sha256": "decd7f27201d35c07b6f250203ba97b3e3f64318b054eb76bb2fa10ac4da6ab0",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_clear.py",
+    "target": "tests/test_clear.py",
+    "source_sha256": "e569157f1e8f65fc08790b3bc3b503b0fc9df89f4b8b590a8d4dc0916d685724",
+    "target_sha256": "50fd342228983d2bee1f266fc7dfecc7fd1ef90ace9dc84d65c79c4042e393cb",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_commands.py",
+    "target": "tests/test_commands.py",
+    "source_sha256": "bbd0bb9799ae948d9e3decb3bf9a8603fe9fd92d1bf2c960c098063689be583c",
+    "target_sha256": "a4a4b0216c90466771b30993caa2e933d61edfb04aa0377fc509931cc6516aa2",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_consolidation.py",
+    "target": "tests/test_consolidation.py",
+    "source_sha256": "d236b2008f501a0fdc6bc2bcad6af51469bf942cde221f0fe18b1cb7e61d76c7",
+    "target_sha256": "158b0c9bc1af5301d5860540436be575d707cd30ff10a7ba4d82603946d08f4f",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_context.py",
+    "target": "tests/test_context.py",
+    "source_sha256": "c20c8bafb34387a7fd4e9ef90b64052c99eb745fee8146370b75f8416b2d58e0",
+    "target_sha256": "f12883734c958fc8cf92eab34f914182d6f8ac9590721ce4ff8d9f5849640644",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_context_window.py",
+    "target": "tests/test_context_window.py",
+    "source_sha256": "060b88f7ecb3768bdb99ab35542bfc9899fdfd86f20663127199aa30231dd695",
+    "target_sha256": "238238e27f8f3e2dbfbfcd22dd30e6234f68fafdd763afde44cf383270668ce6",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_conversation_pairing.py",
+    "target": "tests/test_conversation_pairing.py",
+    "source_sha256": "222fdfc892c0beb06babb484932042add21277c7390b876b23d7d17c5a3e5c50",
+    "target_sha256": "0f836f4890e58c8c1f0f757845b656cc05202a7afba2ab37ae55c8013b8a4e66",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_coordinator_multi_team.py",
+    "target": "tests/test_coordinator_multi_team.py",
+    "source_sha256": "e390fbcdede107fd6804a6ce714065bebedac4597591a0df3d496300936825ce",
+    "target_sha256": "04274997367ba37acaee908058718c71197e21c0942d5979e5aff82d71e0ab0f",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_crashlog.py",
+    "target": "tests/test_crashlog.py",
+    "source_sha256": "3389f3760a1aae9339d7b6b417d5e37b46d44b88228b8e8624e26ba070df44a9",
+    "target_sha256": "9e07af6b1d92ea3a540b3dfd2e1dd4125b64305454f4eb53de4a91a112cf3091",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_deferred_reminder.py",
+    "target": "tests/test_deferred_reminder.py",
+    "source_sha256": "830ce6b622b8b9ba660e80f8a40d162cd332d5c0c420433e9d2e023cad4503f8",
+    "target_sha256": "4060cf8573bbb7f844476dbb172460afedc9b3e562327bb6c0d8226a572d3812",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_diff.py",
+    "target": "tests/test_diff.py",
+    "source_sha256": "67e25f2290957d0172d741b6b366553b8a606cd581b78fced3ad6ea8e4bdcd1b",
+    "target_sha256": "04c92b8236f824a06abe21bcc13ca93b7fb047e9555c4b138cba4cf3b546bef7",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_edit_file.py",
+    "target": "tests/test_edit_file.py",
+    "source_sha256": "4f15852af8cd633a5a93192457532cb2365b7bb32af83cfb364c9c63a178afbd",
+    "target_sha256": "f2b8c915a8378fdb6cbd79f9d5172b238ecf2ba07f60477941ee120c8bdabc8b",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_file_history_rewind.py",
+    "target": "tests/test_file_history_rewind.py",
+    "source_sha256": "e210bdad6e1493269d89850b1200d3d21681c0fbef0c9e0ad54b1de1245335e7",
+    "target_sha256": "480788b9a3f3395be0274c76bd6181ecda94bceb2efbb0113ee71f195c88f2af",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_hello_world.py",
+    "target": "tests/test_hello_world.py",
+    "source_sha256": "dde20eb73159e294e4190766a5da7f53d96682da3c675d5c868428e828b746e1",
+    "target_sha256": "f604f221c442d10e9414e7fac364b0e1250c15e5a4527db67dc351abb3a62e5c",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_hooks.py",
+    "target": "tests/test_hooks.py",
+    "source_sha256": "a110ff420af0564e7eeb3ecbf3fa8dc3e420e3bd1da45a83880ac84a3337998f",
+    "target_sha256": "0746c1204d07a8bbb822035c2df7410ed6333148a436bffe9c1e88287865aa0a",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_mcp.py",
+    "target": "tests/test_mcp.py",
+    "source_sha256": "bf396af7332590b6c6b493fa82738ec0d1a1d6ec2a28db7a7f2ff2109d07e167",
+    "target_sha256": "79c46f961d9bb004ac7763d11953cba7351fe76cf12cedd741e144bf205d94da",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_mcp_call.py",
+    "target": "tests/test_mcp_call.py",
+    "source_sha256": "b38c54ac9261336301bc1cded7cbd35e36d8ba4986618148db336c682f340d4e",
+    "target_sha256": "be8cc02d8ba3f7bc6f879b64dfcadbd53d8bc8d81ad4fbb848386e0b80609eff",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_memory.py",
+    "target": "tests/test_memory.py",
+    "source_sha256": "2ea6fad5b3b7d84735d33f9a6a08d4e665827871280126549fba567874370f0d",
+    "target_sha256": "8d8ec8f42c9944468cbaba176abf59fff2b63fcbbb39ed5f1246b4ccedefb434",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_memory_recall_wiring.py",
+    "target": "tests/test_memory_recall_wiring.py",
+    "source_sha256": "4c340e637a36eff59cebd9bb550aa62e38419f75d731b339cd8b6cc26fd2ea14",
+    "target_sha256": "c3325351924700920b17eea8ea5191d0661f5b7955f1bf5381b6b2bd5d16e990",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_permission_feedback.py",
+    "target": "tests/test_permission_feedback.py",
+    "source_sha256": "33bcdd690967004ee99c7adbaa4fe322013451064fa51a3ee033edfd1ed83e5a",
+    "target_sha256": "330c0be995d41d747ae1b25fd57fcef54b1008d2024502ed0b92e942466dcdb2",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_permissions.py",
+    "target": "tests/test_permissions.py",
+    "source_sha256": "922c87db8bad109d22a7df317a6a0adcb86e9b740e83e54d63231320a4ff016f",
+    "target_sha256": "29d95c79708bc631d176f96e7c4e115b8a72075a45a4cb624652c67414804b37",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_recovery.py",
+    "target": "tests/test_recovery.py",
+    "source_sha256": "d5457b2c2fdf95cb073de9543843ffc922ff1c1e6f1e7c50fa498dbd48270f06",
+    "target_sha256": "a36fa2ca9602c33b348643465e917614e233866ab4d27bc57f17bf55b5119f7f",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_serialization.py",
+    "target": "tests/test_serialization.py",
+    "source_sha256": "e85295cbb5a38c98fdf1d5096dc9d6b840f653222030a1acf48befd2706257b0",
+    "target_sha256": "20f111efe918774eaf6e1c9aff3e2841854147aac0e7e066c6304728e4959ee5",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_session_no_duplicate.py",
+    "target": "tests/test_session_no_duplicate.py",
+    "source_sha256": "8bfcc8236928c4cbf6b2f18131c82dba076a3490d9c4ee4219cb916d6675182b",
+    "target_sha256": "f506a056c542c3f50b6fb5c8315f9cfd0f781761a434e4f5ea317113f2c6dafa",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_skills.py",
+    "target": "tests/test_skills.py",
+    "source_sha256": "61b3ac79df2a8fcfa2b6bbf14b235d222bfecb2024523feda215821ca17086f1",
+    "target_sha256": "3d25499100d5a90188859990185398d72454426b2c42052ff0dd0d9fcfd3a3ff",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_streaming_batching.py",
+    "target": "tests/test_streaming_batching.py",
+    "source_sha256": "1a7fc51a4e1c9c45d1b1f887b3fd41138e0f578a133e46da915d5a87966d0fbc",
+    "target_sha256": "e5a815a4d03e83f16bf897b787d698acd77a0eb8b88421c3471a63568d99f0ca",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_subagent.py",
+    "target": "tests/test_subagent.py",
+    "source_sha256": "3609b7918fdaf3b5ed5840db6626891295e7fb25cc8884c5954d7293be594e16",
+    "target_sha256": "a2b5fd8c488fdc9bbc9e4f91107a35c39ce5df6c3661a49028a78ac3ec840160",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_team_protocol.py",
+    "target": "tests/test_team_protocol.py",
+    "source_sha256": "007f0ad6cec45ffe70e8f9747b684c1e17c7fd95f10926c03a369fb42fad457f",
+    "target_sha256": "0d17ff59b2d7e4fc0e9bd47d89f4f67c99101b074123fc8a2d3fb90ec9c1b54e",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_teammate_registry.py",
+    "target": "tests/test_teammate_registry.py",
+    "source_sha256": "056d36af2feae0ddb5532665da19c95ce14386e8018da1e3348b6bc5da05724a",
+    "target_sha256": "c7ab3aee7bf00a5cf050d7a6ae7089ee9386d9f633ef739a80c5abc49f6ceb31",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_teams.py",
+    "target": "tests/test_teams.py",
+    "source_sha256": "1be6022a116d8133fa9c24584eeca0bcd36dcd7e41501476e72ec891525ccd3d",
+    "target_sha256": "8c9473895c586828c10eb9d0451c029afcc6a487d14b222819f9e5cb82e6d438",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_tool_cache_marker.py",
+    "target": "tests/test_tool_cache_marker.py",
+    "source_sha256": "5ed20cb961ec518d3a94f7f7d3295d7991316e314027e1fa7558a35cab86a2d5",
+    "target_sha256": "12410f02e0157076fbeacbb512f1d6d62136616b3b00c47cf17780a17a82d338",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_tool_call_block.py",
+    "target": "tests/test_tool_call_block.py",
+    "source_sha256": "266c2b2da7cc7e62f744884fd01d7ee04a128573f988e8c09837df0eb538aef5",
+    "target_sha256": "9210c85c43126415c2afe2878d3b6a691354c2c0ef210b5210057a1ff96bdb91",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_tool_search.py",
+    "target": "tests/test_tool_search.py",
+    "source_sha256": "0855a6bdce27582a7cbe463079ba553fa48c118722d1798b09b92e997622b15a",
+    "target_sha256": "61ff356462566b5f554c3463bb5efc1548ae017e87528a62ac65f899aba870f0",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_toolresult_wiring.py",
+    "target": "tests/test_toolresult_wiring.py",
+    "source_sha256": "8cf47bf1447daac774886885de71a381adab08af486c4d23fb46a36efbb4516a",
+    "target_sha256": "d42508500a63cb2c740f9c3db1fd1dcd3b29ac3e7f3bc9eec08e681d71e02257",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/test_worktree.py",
+    "target": "tests/test_worktree.py",
+    "source_sha256": "3dfcabda3df44300c85f69688465fd45237db078345ecaa701cf5e19225fa6c8",
+    "target_sha256": "f198d4f87710e5c2366c4de0b0810a10a4decf679814ea21e2de7839bcef59c0",
+    "license_unchanged": false
+  },
+  {
+    "source": "tests/verify_subagent.py",
+    "target": "tests/verify_subagent.py",
+    "source_sha256": "7f3d4a69c52e40558b44a4de19bee7050a2b860a35f6d9e2186ae98c745e0558",
+    "target_sha256": "52e0ad914a4cfa67cf769f0ac79029c8b10cbfadd273ad44c89162488666c6d3",
+    "license_unchanged": false
+  },
+  {
+    "source": "uv.lock",
+    "target": "uv.lock",
+    "source_sha256": "5a4c4810eb1bc0c4f6f3ebcd8343d2839f435c0aa02a56eee5824a8ca25ab08b",
+    "target_sha256": "ace64a16adc5f9364159fefbc8ff62dffcfeb3fc4f5251c6c0eee4c6b32c642f",
+    "license_unchanged": false
+  }
+]
